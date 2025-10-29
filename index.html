@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【公式】Gen AI マーケットリサーチ | 最適な意思決定へ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+            background-color: #f7f9fc;
+        }
+
+        /* Section Styling */
+        .lp-section {
+            padding: 80px 20px;
+            margin: 0 auto;
+            max-width: 1000px;
+        }
+
+        /* Primary Button Style (CTA) */
+        .cta-button {
+            display: inline-block;
+            padding: 18px 32px;
+            background-color: #ef4444; /* Red: Action color */
+            color: white;
+            font-size: 1.25rem;
+            font-weight: 700;
+            border-radius: 9999px; /* Fully rounded */
+            box-shadow: 0 10px 20px rgba(239, 68, 68, 0.4);
+            transition: all 0.3s ease;
+            text-align: center;
+            letter-spacing: 0.05em;
+        }
+        .cta-button:hover {
+            background-color: #dc2626;
+            box-shadow: 0 15px 30px rgba(239, 68, 68, 0.5);
+            transform: translateY(-2px);
+        }
+
+        /* Accent Color */
+        .text-primary { color: #1e40af; }
+        .bg-primary { background-color: #1e40af; }
+
+        /* Flow Chart Styles (Reused from previous slide concept) */
+        .flow-step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            min-width: 100px;
+            text-align: center;
+        }
+        .flow-box {
+            background-color: #1e40af;
+            color: white;
+            padding: 12px 18px;
+            border-radius: 8px;
+            font-weight: 700;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            min-height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        .flow-arrow-down {
+            width: 2px;
+            height: 30px;
+            background-color: #9ca3af;
+            margin: 10px 0;
+            position: relative;
+        }
+        .flow-arrow-down::after {
+            content: '▼';
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #9ca3af;
+            font-size: 0.75rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="lp-section bg-white border-b-8 border-primary text-center pt-20 pb-20 md:pb-32">
+        <h1 class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-4">
+            株式会社Gen AI マーケットリサーチ代行サービス
+        </h1>
+        <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
+            最適な<strong>マーケットリサーチ</strong>が、<br>最適な<strong>意思決定</strong>を可能にする。
+        </h2>
+        <p class="text-xl md:text-2xl font-semibold text-primary mt-6">
+            Gen AIのマーケットリサーチが、あなたの<strong>次の一手</strong>を導きます。
+        </p>
+        <p class="text-lg text-gray-600 mt-4 mb-10">
+            〜 データ以上の成果物で、企画の未来を切り拓く 〜
+        </p>
+        <a href="#contact" class="cta-button">
+            無料相談・資料請求はこちら
+        </a>
+    </header>
+
+    <section class="lp-section bg-f7f9fc">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-center text-gray-800 mb-12 border-b-4 border-red-500 pb-2 inline-block mx-auto">
+            「なんとなく」の意思決定が、未来を左右する
+        </h2>
+        <div class="max-w-3xl mx-auto space-y-8">
+            <p class="text-xl text-center text-gray-700 font-medium">
+                多くの中小企業経営者が直面する、事業成長の3つの壁
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <p class="text-4xl mb-4 text-red-500">?</p>
+                    <p class="font-bold text-lg text-gray-800">市場のニーズが不透明</p>
+                    <p class="text-gray-600 mt-2">新規事業を立ち上げたいが、本当に求められているのか分からない。</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <p class="text-4xl mb-4 text-red-500">⚔️</p>
+                    <p class="font-bold text-lg text-gray-800">競合との差別化が困難</p>
+                    <p class="text-gray-600 mt-2">優位点が見つからず、価格競争に巻き込まれ利益が圧迫されている。</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <p class="text-4xl mb-4 text-red-500">💰</p>
+                    <p class="font-bold text-lg text-gray-800">リソース投下先で迷い</p>
+                    <p class="text-gray-600 mt-2">限られた人員・予算を、どこに集中すべきか判断がつかない。</p>
+                </div>
+            </div>
+            <p class="text-2xl font-extrabold text-center pt-8 text-primary">
+                その経営判断、<strong>データとマーケティング</strong>で裏付けませんか？
+            </p>
+        </div>
+    </section>
+
+    <section class="lp-section bg-white">
+        <div class="text-center">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 mb-4">
+                「データ以上の成果物を。」
+            </h2>
+            <p class="text-xl font-bold text-primary mb-12">Gen AIのサービスコンセプト</p>
+
+            <div class="max-w-4xl mx-auto concept-box bg-primary p-10 rounded-2xl shadow-2xl">
+                <p class="text-2xl md:text-3xl text-white font-medium mb-6">
+                    私たちが提供するのは、単なる「調査結果」ではありません。
+                </p>
+                <p class="text-3xl md:text-4xl font-extrabold text-yellow-300">
+                    「このデータをどう活用すれば、事業が成長するのか？」
+                </p>
+                <p class="text-2xl text-white font-semibold mt-6">
+                    この問いにコミットし、<strong>次に打つべき具体的な一手</strong>までを提示します。
+                </p>
+            </div>
+        </div>
+
+        <div class="flex justify-center items-stretch mt-16 flex-wrap md:flex-nowrap">
+            <div class="flow-step">
+                <div class="flow-box bg-gray-500">データ収集</div>
+                <p class="text-sm text-gray-500 mt-2">(アンケート、デスクリサーチ)</p>
+            </div>
+            <div class="flow-arrow-down hidden md:block"></div>
+            <div class="flow-step">
+                <div class="flow-box bg-gray-500">データ分析</div>
+            </div>
+            <div class="flow-arrow-down hidden md:block"></div>
+            <div class="flow-step">
+                <div class="flow-box bg-red-600 text-white shadow-xl">戦略提言</div>
+                <p class="text-sm text-red-600 mt-2 font-bold">最適な意思決定へ直結</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="lp-section bg-f7f9fc">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-center text-gray-800 mb-4">
+            Gen AIの強み：深掘りする<strong>「キーマン取材」</strong>
+        </h2>
+        <p class="text-xl text-center text-gray-600 mb-12">
+            インターネットでは得られない「実態」に迫ります。
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <div class="space-y-6">
+                <blockquote class="border-l-4 border-red-500 pl-4 italic text-2xl font-medium text-gray-700 bg-white p-4 rounded-lg shadow-md">
+                    「なぜそう思うのか？」「次に何を求めているのか？」
+                </blockquote>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    ターゲット業界の専門家や、御社のターゲット顧客となる<strong>「キーマン」に直接取材</strong>を実施。経験豊富なリサーチャーが、質問の奥にある<strong>生きた情報</strong>と<strong>潜在的なニーズ</strong>を引き出します。
+                </p>
+                <p class="text-xl font-bold text-primary">
+                    これにより、単なる市場動向ではなく、<strong>市場の本当の課題</strong>を浮き彫りにし、具体的な戦略の土台を構築します。
+                </p>
+            </div>
+            <div class="keyman-image p-0 border-0 text-blue-800 text-base h-auto rounded-xl flex items-center justify-center">
+                <img src="https://imgtu.com/uploads/vo89zqnv/r-file_fc87d5.webp" alt="ビジネスミーティングの様子" class="w-full h-auto object-cover rounded-xl shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <section class="lp-section bg-white text-center">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 mb-4 border-b-4 border-primary pb-2 inline-block">
+            調査の流れとスピード
+        </h2>
+        <div class="mt-8 mb-12">
+            <p class="text-4xl font-extrabold text-red-600">最短5週間</p>
+            <p class="text-xl font-semibold text-gray-700 mt-2">
+                お打ち合わせから最終報告まで、迅速に戦略の土台をご提供します。
+            </p>
+        </div>
+
+        <div class="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="p-4 bg-gray-100 rounded-lg shadow-md">
+                <p class="font-bold text-primary text-lg">1. 課題設定・企画</p>
+                <p class="text-sm text-gray-600 mt-1">ヒアリングと仮説設定</p>
+            </div>
+            <div class="p-4 bg-gray-100 rounded-lg shadow-md">
+                <p class="font-bold text-primary text-lg">2. デスクリサーチ</p>
+                <p class="text-sm text-gray-600 mt-1">市場規模・競合調査</p>
+            </div>
+            <div class="p-4 bg-gray-100 rounded-lg shadow-md">
+                <p class="font-bold text-primary text-lg">3. キーマン取材</p>
+                <p class="text-sm text-gray-600 mt-1">深掘りインサイト獲得</p>
+            </div>
+            <div class="p-4 bg-red-100 rounded-lg shadow-md border-2 border-red-500">
+                <p class="font-bold text-red-600 text-lg">4. 分析・最終報告</p>
+                <p class="text-sm text-red-600 mt-1">戦略提言レポート納品</p>
+            </div>
+        </div>
+        
+        <a href="#contact" class="cta-button mt-12">
+            最短5週間で戦略を手に入れる
+        </a>
+    </section>
+
+    <section class="lp-section bg-f7f9fc">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-center text-gray-800 mb-4">
+            成果物：データが<strong>「戦略」</strong>に変わるレポート
+        </h2>
+        <p class="text-xl text-center text-gray-600 mb-12">
+            納品するのは、<strong>「すぐに使える、事業戦略設計書」</strong>です。
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <ul class="space-y-6">
+                <li class="p-4 bg-white rounded-xl shadow-lg border-l-4 border-green-500">
+                    <p class="font-extrabold text-xl text-green-600">1. エグゼクティブサマリ</p>
+                    <p class="text-gray-700 mt-1">今回の結論と、<strong>次に打つべき具体的アクション</strong>を明確に提示。</p>
+                </li>
+                <li class="p-4 bg-white rounded-xl shadow-lg border-l-4 border-green-500">
+                    <p class="font-extrabold text-xl text-green-600">2. 市場環境分析</p>
+                    <p class="text-gray-700 mt-1">市場規模、競合動向、トレンドを整理し、客観的な事実を把握。</p>
+                </li>
+                <li class="p-4 bg-white rounded-xl shadow-lg border-l-4 border-green-500">
+                    <p class="font-extrabold text-xl text-green-600">3. 顧客インサイト</p>
+                    <p class="text-gray-700 mt-1">キーマン取材で得られた<strong>顧客の真のニーズ</strong>と課題を詳述。</p>
+                </li>
+                <li class="p-4 bg-white rounded-xl shadow-lg border-l-4 border-green-500">
+                    <p class="font-extrabold text-xl text-green-600">4. 戦略提言</p>
+                    <p class="text-gray-700 mt-1">御社の強みを活かした<strong>最適なポジショニング戦略</strong>を具体的に提案。</p>
+                </li>
+            </ul>
+            <div class="p-0 border-0 text-gray-600 text-base h-auto rounded-xl flex items-center justify-center shadow-inner">
+                <img src="https://imgtu.com/uploads/vo8q2jhl/r-file_835399.webp" alt="戦略レポートのイメージ" class="w-full h-auto object-cover rounded-xl shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <section class="lp-section bg-white text-center">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 mb-12 border-b-4 border-red-500 pb-2 inline-block mx-auto">
+            ご導入いただいたお客様の声
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-6 bg-f7f9fc rounded-xl shadow-lg border-t-8 border-primary">
+                <p class="text-xl font-extrabold text-primary">製造業 A社様（従業員32名）</p>
+                <p class="mt-4 italic text-gray-700 leading-relaxed">
+                    「新規事業のターゲットが曖昧でしたが、レポートで顧客の課題が明確になり、自信を持って事業をスタートできました。」
+                </p>
+            </div>
+            <div class="p-6 bg-f7f9fc rounded-xl shadow-lg border-t-8 border-primary">
+                <p class="text-xl font-extrabold text-primary">IT B社様（従業員14名）</p>
+                <p class="mt-4 italic text-gray-700 leading-relaxed">
+                    「市場調査のノウハウがなく諦めていましたが、プロに任せることで、限られたリソースで効率的なマーケティング戦略を立てられました。」
+                </p>
+            </div>
+            <div class="p-6 bg-f7f9fc rounded-xl shadow-lg border-t-8 border-primary">
+                <p class="text-xl font-extrabold text-primary">サービス業 C社様（従業員21名）</p>
+                <p class="mt-4 italic text-gray-700 leading-relaxed">
+                    「他社にはない深いリサーチに驚きました。今後も事業の節目で相談したいパートナーです。」
+                </p>
+            </div>
+        </div>
+
+        <div class="p-0 border-0 text-yellow-800 text-base h-auto rounded-xl mt-12 flex items-center justify-center max-w-sm mx-auto">
+            <img src="https://imgtu.com/uploads/vo952vwb/r-file_ded9af.webp" alt="ビジネスマンの握手" class="w-full h-auto object-cover rounded-xl shadow-lg">
+        </div>
+    </section>
+
+    <section id="contact" class="lp-section bg-primary text-white text-center">
+        <h2 class="text-4xl md:text-5xl font-extrabold border-b-4 border-white pb-3 inline-block mx-auto">
+            データとマーケティングが、<br>経営戦略を切り拓く。
+        </h2>
+        <p class="text-2xl font-bold mt-8">
+            御社の「次の一手」を明確にするため、まずはお気軽にご相談ください。
+        </p>
+        <p class="text-lg leading-relaxed mt-4 mb-12">
+            最適なリサーチプランを無料でご提案します。
+        </p>
+
+        <a href="#" class="cta-button mx-auto w-full max-w-sm mb-12">
+            無料相談・リサーチプラン提案を依頼する
+        </a>
+    </section>
+    <footer class="text-center p-4 text-sm text-gray-500 bg-white">
+        &copy; 2025 Gen AI Co., Ltd. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
